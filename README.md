@@ -1,4 +1,4 @@
-# Simulador de Examen UNIR
+# Simulador de Examen
 
 Esta aplicación es una herramienta web autocontenida (funciona localmente sin servidor) diseñada para practicar exámenes tipo test a partir de archivos Markdown.
 
