@@ -658,6 +658,13 @@
                 
                 if (isCorrect) score++;
                 
+                // Obtener el texto completo de las opciones (Letra + Enunciado)
+                const userOption = question.options.find(opt => opt.letter === userAnswer);
+                const correctOption = question.options.find(opt => opt.letter === question.correctAnswer);
+                
+                const userDisplay = userAnswer ? (userOption ? `${userAnswer}. ${userOption.text}` : userAnswer) : '<span class="no-answer">No respondida</span>';
+                const correctDisplay = correctOption ? `${question.correctAnswer}. ${correctOption.text}` : question.correctAnswer;
+
                 const resultItem = document.createElement('div');
                 resultItem.className = `result-item ${isCorrect ? 'correct' : 'incorrect'}`;
                 resultItem.innerHTML = `
@@ -672,13 +679,13 @@
                     <div class="answer-line">
                         <span class="answer-label">Tu respuesta:</span>
                         <span class="${isCorrect ? 'correct-answer' : 'incorrect-answer'}">
-                            ${userAnswer || '<span class="no-answer">No respondida</span>'}
+                            ${userDisplay}
                         </span>
                     </div>
                     
                     <div class="answer-line">
                         <span class="answer-label">Respuesta correcta:</span>
-                        <span class="correct-answer">${question.correctAnswer}</span>
+                        <span class="correct-answer">${correctDisplay}</span>
                     </div>
                     
                     <div class="feedback">

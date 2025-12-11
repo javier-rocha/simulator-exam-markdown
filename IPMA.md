@@ -8,6 +8,8 @@
 
 **Respuesta correcta:** C
 
+**Retroalimentación:** Un paquete de trabajo es el nivel más bajo de la Estructura de Desglose del Trabajo (WBS/EDT) al que se puede asignar costo y duración para su gestión.
+
 ---
 
 ###Tema 1 - Pregunta 2
@@ -19,6 +21,8 @@
 - D. Persistencia y a veces terquedad.
 
 **Respuesta correcta:** C
+
+**Retroalimentación:** Un buen líder de proyecto debe ser capaz de gestionar la incertidumbre y el riesgo, no tener aversión a ellos, ya que son inherentes a la naturaleza de los proyectos.
 
 ---
 
@@ -32,6 +36,8 @@
 
 **Respuesta correcta:** B
 
+**Retroalimentación:** La gestión de carteras (portfolios) se centra en la selección, priorización y control de los proyectos y programas de una organización para alinear las inversiones con los objetivos estratégicos y optimizar recursos.
+
 ---
 
 ###Tema 1 - Pregunta 4
@@ -43,6 +49,8 @@ En el cierre del proyecto no hay que hacer:
 - D. Dar servicio de mantenimiento al cliente del proyecto.
 
 **Respuesta correcta:** D
+
+**Retroalimentación:** El mantenimiento y soporte al cliente corresponden a la fase de operaciones o vida útil del producto, posterior al cierre formal del proyecto.
 
 ---
 
@@ -56,6 +64,8 @@ Indicar la afirmación con la que está de acuerdo. La teoría de la Motivación
 
 **Respuesta correcta:** C
 
+**Retroalimentación:** La pirámide de Maslow indica que las necesidades básicas (fisiológicas, seguridad) deben cubrirse antes de que las necesidades superiores (afiliación, reconocimiento, autorrealización) actúen como motivadores.
+
 ---
 
 ###Tema 1 - Pregunta 6
@@ -67,6 +77,8 @@ Indicar la afirmación con la que está de acuerdo:
 - D. Los estándares así señalados serían tan complejos que no se podría determinar el grado de maestría de cada profesional asignable a proyectos.
 
 **Respuesta correcta:** C
+
+**Retroalimentación:** Los modelos de competencia, como el ICB de IPMA, establecen estándares que definen los conocimientos y habilidades requeridos para diferentes niveles de desempeño profesional.
 
 ---
 
@@ -80,6 +92,8 @@ Indicar la afirmación con la que está de acuerdo, en relación con la gestión
 
 **Respuesta correcta:** C
 
+**Retroalimentación:** Las estrategias estándar para responder a riesgos negativos (amenazas) incluyen evitar, transferir, mitigar y aceptar. Compartir se asocia generalmente a oportunidades, aunque en contextos de colaboración puede implicar repartir el riesgo.
+
 ---
 
 ###Tema 1 - Pregunta 8
@@ -91,6 +105,8 @@ Respecto al elemento de competencia autorreflexión y autogestión, ¿cuál de l
 - D. Controlar y evitar los momentos de estrés durante el proyecto.
 
 **Respuesta correcta:** A
+
+**Retroalimentación:** La autogestión implica la capacidad de establecer metas propias, gestionar el estrés y organizar el trabajo personal de manera efectiva.
 
 ---
 
@@ -104,6 +120,8 @@ Respecto al elemento de competencia liderazgo, ¿cuál de las siguientes definic
 
 **Respuesta correcta:** D
 
+**Retroalimentación:** El liderazgo en proyectos no se limita al equipo directo, sino que implica influir, guiar y motivar a todas las partes interesadas (stakeholders) para lograr los objetivos.
+
 ---
 
 ###Tema 1 - Pregunta 10
@@ -115,6 +133,8 @@ Respecto al elemento de competencia Liderazgo, ¿cuál de los siguientes no es u
 - D. Seleccionar y crear equipo.
 
 **Respuesta correcta:** C
+
+**Retroalimentación:** Tomar decisiones y ejecutarlas es una función de gestión/dirección. El liderazgo se centra más en inspirar, motivar, crear visión y construir equipos.
 
 ---
 
@@ -128,6 +148,8 @@ Dentro del elemento de competencia alcance, ¿cuál de los siguientes indicadore
 
 **Respuesta correcta:** B
 
+**Retroalimentación:** Definir el alcance del programa corresponde a la gestión de programas, no es un indicador directo de la competencia de alcance de un proyecto individual, aunque estén relacionados.
+
 ---
 
 ###Tema 1 - Pregunta 12
@@ -139,6 +161,8 @@ Dentro del elemento de competencia «finanzas», ¿cuál de los siguientes indic
 - D. Asigna y distribuye recursos de acuerdo con las necesidades definidas.
 
 **Respuesta correcta:** A
+
+**Retroalimentación:** Asegurar la calidad es una función de la gestión de calidad, no de la gestión financiera. La gestión financiera se ocupa de presupuestos, flujos de caja y financiación.
 
 ---
 
@@ -152,6 +176,8 @@ Según su experiencia, un cambio puede ser solicitado por:
 
 **Respuesta correcta:** D
 
+**Retroalimentación:** Las solicitudes de cambio pueden originarse en cualquier interesado (cliente, equipo, patrocinador, proveedores, gobierno, etc.) que identifique una necesidad de modificación.
+
 ---
 
 ###Tema 1 - Pregunta 14
@@ -163,6 +189,8 @@ Indicar cuál de las siguientes opciones NO puede ser considerado un criterio de
 - D. Reducción del plazo empleado por la ingeniería en la preparación del diseño.
 
 **Respuesta correcta:** D
+
+**Retroalimentación:** La reducción del plazo de una fase específica (ingeniería) es una métrica de eficiencia de un departamento, no necesariamente un criterio de éxito global del proyecto como lo son la satisfacción del cliente, la rentabilidad o la funcionalidad.
 
 ---
 
@@ -176,6 +204,8 @@ La responsabilidad de movilizar los fondos para el proyecto recae, habitualmente
 
 **Respuesta correcta:** B
 
+**Retroalimentación:** El patrocinador (sponsor) es el responsable de asegurar la financiación y los recursos necesarios para el proyecto, actuando como enlace con la alta dirección.
+
 ---
 
 ###Tema 1 - Pregunta 16
@@ -187,6 +217,8 @@ El análisis de las variaciones en los costos y sus causas:
 - D. Es una obligación de la dirección del proyecto, pero no de la dirección de costos en sí misma.
 
 **Respuesta correcta:** C
+
+**Retroalimentación:** El control de costos implica monitorear el presupuesto, analizar las desviaciones (variaciones) y entender sus causas para tomar acciones correctivas.
 
 ---
 
@@ -200,6 +232,8 @@ El análisis de las variaciones en los costos y sus causas:
 
 **Respuesta correcta:** C
 
+**Retroalimentación:** El éxito del proyecto es multidimensional. Si los interesados clave están satisfechos con el resultado y el valor entregado, el proyecto puede considerarse exitoso aunque haya habido desviaciones en la triple restricción.
+
 ---
 
 ###Tema 1 - Pregunta 18
@@ -211,6 +245,8 @@ La Estructura de Descomposición del Proyecto (WBS) se desarrolla hasta lograr e
 - D. Paquete de trabajo.
 
 **Respuesta correcta:** D
+
+**Retroalimentación:** El paquete de trabajo es el componente de trabajo definido en el nivel más bajo de la EDT/WBS, utilizado para estimar y gestionar costos y cronograma.
 
 ---
 
@@ -224,6 +260,8 @@ La Estructura de Descomposición del Proyecto (WBS) se desarrolla hasta lograr e
 
 **Respuesta correcta:** D
 
+**Retroalimentación:** El registro de datos históricos y lecciones aprendidas permite a la organización aprender de la experiencia, evitar errores pasados y mejorar la planificación de futuros proyectos.
+
 ---
 
 ###Tema 1 - Pregunta 20
@@ -235,6 +273,8 @@ Indicar la respuesta correcta. El plan del proyecto:
 - D. Contiene una programación con el detalle que es posible a nivel de definición del alcance, pero esta puede variar en función de las actividades de la dirección del mismo (alcance).
 
 **Respuesta correcta:** D
+
+**Retroalimentación:** La planificación es un proceso iterativo (elaboración gradual). El plan se detalla progresivamente a medida que se dispone de más información sobre el alcance y el entorno.
 
 ---
 
@@ -248,6 +288,8 @@ El sistema de información y documentación del proyecto:
 
 **Respuesta correcta:** A
 
+**Retroalimentación:** Un sistema de información de gestión de proyectos (PMIS) debe facilitar la recopilación, análisis y distribución eficiente de la información del proyecto a los interesados.
+
 ---
 
 ###Tema 1 - Pregunta 22
@@ -259,6 +301,8 @@ El manejo de las Partes Interesadas de un proyecto es esencial para el éxito de
 - D. Todas las arriba mencionadas.
 
 **Respuesta correcta:** D
+
+**Retroalimentación:** La gestión de interesados abarca identificar a todos los afectados, analizar sus intereses e influencia, y desarrollar estrategias para gestionar su participación y expectativas.
 
 ---
 
@@ -272,6 +316,8 @@ Durante el ciclo de vida del proyecto, para la competencia Riesgo y Oportunidad,
 
 **Respuesta correcta:** D
 
+**Retroalimentación:** Los riesgos residuales (los que permanecen después de aplicar respuestas) deben ser monitoreados y evaluados continuamente, no ignorados.
+
 ---
 
 ###Tema 1 - Pregunta 24
@@ -283,6 +329,8 @@ Con cuál de las afirmaciones estaría usted de acuerdo en la competencia Finanz
 - D. Estima costos, establece el presupuesto e identifica fuentes de fondos.
 
 **Respuesta correcta:** D
+
+**Retroalimentación:** La competencia financiera implica estimar los costos de las actividades, agregar estos costos en un presupuesto y asegurar la disponibilidad de fondos (flujo de caja).
 
 ---
 
@@ -296,6 +344,8 @@ Indicar las afirmaciones con las que esté de acuerdo respecto de la competencia
 
 **Respuesta correcta:** D
 
+**Retroalimentación:** La integridad y fiabilidad profesional requieren autoconocimiento para identificar y abordar las propias limitaciones o carencias que puedan afectar al proyecto.
+
 ---
 
 ###Tema 1 - Pregunta 26
@@ -307,6 +357,8 @@ En la competencia de Comunicación personal, se busca que el director de proyect
 - D. No liberar la tensión a través del humor pues no facilita la comunicación.
 
 **Respuesta correcta:** A
+
+**Retroalimentación:** La comunicación eficaz requiere adaptar el mensaje y el canal al receptor, utilizando un lenguaje claro y comprensible para asegurar que la información se recibe correctamente.
 
 ---
 
@@ -320,6 +372,8 @@ El esfuerzo de la dirección de integración del proyecto se materializa en:
 
 **Respuesta correcta:** C
 
+**Retroalimentación:** El Plan de Dirección del Proyecto es el documento principal que integra y coordina todos los planes subsidiarios (alcance, tiempo, costo, calidad, etc.).
+
 ---
 
 ###Tema 1 - Pregunta 28
@@ -331,6 +385,8 @@ Las operaciones de una empresa generan ingresos de la misma forma que los proyec
 - D. Oportunidades de cambiar la organización.
 
 **Respuesta correcta:** A
+
+**Retroalimentación:** Tanto los proyectos como las operaciones buscan generar valor para la organización, ya sea mediante nuevos productos/servicios (proyectos) o mediante la producción continua (operaciones).
 
 ---
 
@@ -344,6 +400,8 @@ Una empresa de desarrollo de software está operando en un mercado muy dinámico
 
 **Respuesta correcta:** D
 
+**Retroalimentación:** Los cambios en el mercado (competencia, demanda, tecnología) suelen tener el mayor impacto estratégico y pueden obligar a replantear la justificación o el alcance del proyecto.
+
 ---
 
 ###Tema 1 - Pregunta 30
@@ -355,6 +413,8 @@ Indicar la afirmación con la que NO está de acuerdo respecto del elemento de c
 - D. La instrucción y tutoría que da el líder está orientada a mejorar las capacidades de su equipo de proyecto.
 
 **Respuesta correcta:** B
+
+**Retroalimentación:** El liderazgo requiere proactividad. Un líder anticipa necesidades, motiva y guía sin esperar a recibir órdenes o solicitudes explícitas para actuar.
 
 ---
 
@@ -368,6 +428,8 @@ En relación con la competencia de Partes interesadas, con cuál de las siguient
 
 **Respuesta correcta:** B
 
+**Retroalimentación:** La comunicación y el compromiso con las partes interesadas deben mantenerse activos durante todo el ciclo de vida del proyecto para asegurar el éxito.
+
 ---
 
 ###Tema 1 - Pregunta 32
@@ -379,6 +441,8 @@ La ICB de IPMA define competencia como:
 - D. La aplicación del conocimiento, las destrezas y las habilidades para lograr el éxito de los proyectos, programas y carteras de proyectos.
 
 **Respuesta correcta:** D
+
+**Retroalimentación:** La IPMA define la competencia como la combinación de conocimientos, habilidades y destrezas aplicadas en la práctica para lograr los resultados deseados en proyectos, programas y carteras.
 
 ---
 
@@ -392,6 +456,8 @@ Los niveles de competencia de los candidatos a la certificación son examinados 
 
 **Respuesta correcta:** C
 
+**Retroalimentación:** La certificación IPMA es gestionada por las asociaciones nacionales miembros de IPMA en cada país, quienes designan a los evaluadores.
+
 ---
 
 ###Tema 1 - Pregunta 34
@@ -403,5 +469,7 @@ Los elementos de competencia de perspectiva se refieren...
 - D. Al entorno con el cual debemos interactuar cuando dirigimos o participamos en un proyecto.
 
 **Respuesta correcta:** D
+
+**Retroalimentación:** Las competencias de perspectiva (o contextuales) se refieren a la comprensión del entorno más amplio del proyecto, incluyendo la estrategia, la gobernanza y las normas de la organización.
 
 ---
