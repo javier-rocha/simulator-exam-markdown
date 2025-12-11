@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Examen de Práctica</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
         /* Estilos generales */
         * {
@@ -136,7 +137,7 @@
         
         .question-title {
             color: #2c3e50;
-            font-size: 1.3em;
+            font-size: 1em;
             margin-bottom: 25px;
             line-height: 1.6;
             font-weight: 600;
@@ -225,6 +226,32 @@
             display: block;
             margin-left: auto;
             margin-right: auto;
+        }
+        
+        /* Estilos para contenido Markdown (tablas, etc.) */
+        .markdown-content table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 15px 0;
+            font-size: 0.95em;
+        }
+        .markdown-content th, .markdown-content td {
+            border: 1px solid #dee2e6;
+            padding: 10px;
+            text-align: left;
+        }
+        .markdown-content th {
+            background-color: #e9ecef;
+            font-weight: 600;
+        }
+        .markdown-content tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+        .markdown-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 10px 0;
         }
         
         /* Estilos para los resultados */
@@ -388,7 +415,7 @@
             <input type="hidden" id="question-num" value="0">
             
             <div class="question-container">
-                <h2 class="question-title" id="question-text"></h2>
+                <div class="question-title markdown-content" id="question-text"></div>
                 
                 <div class="options" id="question-options">
                     <!-- Las opciones se cargarán aquí -->
@@ -536,9 +563,7 @@
             const topicMatches = Array.from(content.matchAll(/###Tema (\d+) - Pregunta (\d+)/g));
             
             questionBlocks.forEach((block, index) => {
-                const lines = block.split('\n').filter(line => line.trim() && !line.startsWith('---'));
-                
-                if (lines.length === 0) return;
+                const lines = block.split('\n');
                 
                 // Obtener tema y número de pregunta
                 let topic = "1";
@@ -549,31 +574,48 @@
                     questionNum = topicMatches[index][2];
                 }
                 
-                const questionText = lines[0].trim();
+                let questionLines = [];
                 const options = [];
                 let correctAnswer = null;
                 let feedback = "No hay retroalimentación disponible";
+                let state = 'question'; // question, options, metadata
                 
-                for (let i = 1; i < lines.length; i++) {
-                    const line = lines[i].trim();
+                for (let i = 0; i < lines.length; i++) {
+                    const line = lines[i];
+                    const trimmedLine = line.trim();
+                    
+                    if (trimmedLine.startsWith('---')) continue;
+                    if (!trimmedLine && state !== 'question') continue;
                     
                     // Opciones de respuesta
-                    const optionMatch = line.match(/^- ([A-D])\. (.+)/);
+                    const optionMatch = trimmedLine.match(/^- ([A-D])\. (.+)/);
                     if (optionMatch) {
+                        state = 'options';
                         options.push({
                             letter: optionMatch[1],
                             text: optionMatch[2]
                         });
+                        continue;
                     }
                     // Respuesta correcta
-                    else if (line.startsWith('**Respuesta correcta:**')) {
-                        correctAnswer = line.replace('**Respuesta correcta:**', '').trim();
+                    else if (trimmedLine.startsWith('**Respuesta correcta:**')) {
+                        state = 'metadata';
+                        correctAnswer = trimmedLine.replace('**Respuesta correcta:**', '').trim();
+                        continue;
                     }
                     // Retroalimentación
-                    else if (line.startsWith('**Retroalimentación:**')) {
-                        feedback = line.replace('**Retroalimentación:**', '').trim();
+                    else if (trimmedLine.startsWith('**Retroalimentación:**')) {
+                        state = 'metadata';
+                        feedback = trimmedLine.replace('**Retroalimentación:**', '').trim();
+                        continue;
+                    }
+                    
+                    if (state === 'question') {
+                        questionLines.push(line);
                     }
                 }
+                
+                const questionText = questionLines.join('\n').trim();
                 
                 if (options.length > 0 && correctAnswer) {
                     parsedQuestions.push({
@@ -609,8 +651,8 @@
             document.getElementById('question-num').value = questionNum;
             
             // Mostrar texto de la pregunta
-            document.getElementById('question-text').textContent = 
-                `Tema ${question.topic} - Pregunta ${question.number}: ${question.text}`;
+            document.getElementById('question-text').innerHTML = 
+                `<strong>Tema ${question.topic} - Pregunta ${question.number}:</strong><br>` + marked.parse(question.text);
             
             // Mostrar opciones
             const optionsContainer = document.getElementById('question-options');
@@ -676,9 +718,10 @@
                         ${isCorrect ? '✅' : '❌'}
                     </div>
                     
-                    <h3 class="question-title">
-                        Tema ${question.topic} - Pregunta ${question.number}: ${question.text}
-                    </h3>
+                    <div class="question-title markdown-content">
+                        <strong>Tema ${question.topic} - Pregunta ${question.number}:</strong>
+                        <div>${marked.parse(question.text)}</div>
+                    </div>
                     
                     <div class="answer-line">
                         <span class="answer-label">Tu respuesta:</span>
