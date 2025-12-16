@@ -2,6 +2,8 @@
 
 Esta aplicación es una herramienta web autocontenida (funciona localmente sin servidor) diseñada para practicar exámenes tipo test a partir de archivos Markdown.
 
+**Link**: [https://javier-rocha.github.io/simulator-exam-markdown/]
+
 ## Características
 
 - **Ejecución Local**: No requiere instalación ni servidor web. Solo necesitas un navegador moderno.
